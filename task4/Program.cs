@@ -4,7 +4,7 @@
 int[] GetArray(int size, int leftRange, int rightRage)
 {
     int[] arr = new int[size]; 
-    Random rand = new Random();
+    Random rand = new Random();  
     for (int i = 0; i < size; i++)
     {
         arr[i] = rand.Next(leftRange, rightRage + 1);
