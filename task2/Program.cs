@@ -15,7 +15,7 @@ int ReadNumber(string message)
 void printBinaryView(int number)
 {
     if (number <= 0) return;
-    printBinaryView(number / 2);
+    printBinaryView(number / 2); 
     Console.Write(number % 2);
 }
 
